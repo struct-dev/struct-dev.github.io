@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Burguer do Zé | Hambúrgueres Artesanais em Campinas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style-hamburgueria.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Burguer <span>do Zé</span></div>
+  <ul>
+    <li><a href="#cardapio">Cardápio</a></li>
+    <li><a href="#galeria">Fotos</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="https://wa.me/5519999999999" class="nav-order">Pedir agora</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg-text">BURGER</div>
+  <div class="hero-content">
+    <div class="hero-badge">Desde 2015 · Artesanal de verdade</div>
+    <h1>
+      O burger
+      <span class="accent">que você</span>
+      não esquece.
+    </h1>
+    <p>Carne fresca moída diariamente, pão de brioche fresquinho e ingredientes selecionados. Sem frescura, só qualidade no prato.</p>
+    <div class="hero-buttons">
+      <a href="https://wa.me/5519999999999" class="btn-red">Pedir pelo WhatsApp</a>
+      <a href="#cardapio" class="btn-yellow">Ver cardápio</a>
+    </div>
+  </div>
+</div>
+
+<!-- STRIP -->
+<div class="strip">
+  <div class="strip-item">Carne fresca diária</div>
+  <div class="strip-item">Pão de brioche artesanal</div>
+  <div class="strip-item">Entrega em 40 min</div>
+  <div class="strip-item">4.9 no iFood</div>
+  <div class="strip-item">+20 sabores</div>
+</div>
+
+<!-- CARDÁPIO -->
+<section id="cardapio" class="menu">
+  <div class="section-eyebrow">O que temos</div>
+  <div class="section-title">Nosso cardápio</div>
+
+  <div class="menu-tabs" role="tablist">
+    <button class="menu-tab active" role="tab" data-tab="burgers">Burgers</button>
+    <button class="menu-tab" role="tab" data-tab="combos">Combos</button>
+    <button class="menu-tab" role="tab" data-tab="porcoes">Porções</button>
+    <button class="menu-tab" role="tab" data-tab="bebidas">Bebidas</button>
+  </div>
+
+  <div class="menu-panels">
+
+    <!-- ── BURGERS ── -->
+    <div class="menu-panel active" data-panel="burgers">
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/burger-classico.jpg" alt="Clássico do Zé"></div>
+        <div class="menu-info">
+          <div class="menu-name">Clássico do Zé</div>
+          <div class="menu-desc">180g de blend especial, queijo cheddar, alface, tomate, molho da casa e picles artesanal.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 32</div>
+            <div class="menu-badge">Mais pedido</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/burger-smash-bacon.jpg" alt="Smash Bacon"></div>
+        <div class="menu-info">
+          <div class="menu-name">Smash Bacon</div>
+          <div class="menu-desc">Dois smash patties, bacon crocante, queijo americano, cebola caramelizada e aioli defumado.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 42</div>
+            <div class="menu-badge">Favorito</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/burger-infernao.jpg" alt="Infernão"></div>
+        <div class="menu-info">
+          <div class="menu-name">Infernão</div>
+          <div class="menu-desc">Blend apimentado, pimenta jalapeño fresca, queijo pepper jack, molho sriracha e onion crispy.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 38</div>
+            <div class="menu-badge">Picante</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/burger-duplo.jpg" alt="Duplo Cheddar"></div>
+        <div class="menu-info">
+          <div class="menu-name">Duplo Cheddar</div>
+          <div class="menu-desc">Dois blends 150g, duplo cheddar derretido, alface crespa, tomate e maionese temperada.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 45</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/burger-frango.jpg" alt="Frango Crocante"></div>
+        <div class="menu-info">
+          <div class="menu-name">Frango Crocante</div>
+          <div class="menu-desc">Filé de frango empanado, queijo muçarela, alface, tomate e molho honey mustard.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 35</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/burger-veggie.jpg" alt="Veggie"></div>
+        <div class="menu-info">
+          <div class="menu-name">Veggie</div>
+          <div class="menu-desc">Blend de grão-de-bico e cogumelos, queijo vegano, rúcula, tomate seco e pesto de manjericão.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 36</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── COMBOS ── -->
+    <div class="menu-panel" data-panel="combos">
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/combo-classico.jpg" alt="Combo Clássico"></div>
+        <div class="menu-info">
+          <div class="menu-name">Combo Clássico</div>
+          <div class="menu-desc">Clássico do Zé + batata frita média + refrigerante 350ml.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 49</div>
+            <div class="menu-badge">Economize R$ 8</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/combo-smash.jpg" alt="Combo Smash"></div>
+        <div class="menu-info">
+          <div class="menu-name">Combo Smash</div>
+          <div class="menu-desc">Smash Bacon + batata frita grande + refrigerante 350ml.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 59</div>
+            <div class="menu-badge">Favorito</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/combo-familia.jpg" alt="Combo Família"></div>
+        <div class="menu-info">
+          <div class="menu-name">Combo Família</div>
+          <div class="menu-desc">2 Clássicos do Zé + batata frita grande + 2 refrigerantes 350ml. Perfeito para dividir.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 79</div>
+            <div class="menu-badge">Melhor valor</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/combo-duplo.jpg" alt="Combo Duplo"></div>
+        <div class="menu-info">
+          <div class="menu-name">Combo Duplo</div>
+          <div class="menu-desc">Duplo Cheddar + batata frita grande + milk shake 400ml à escolha.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 68</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── PORÇÕES ── -->
+    <div class="menu-panel" data-panel="porcoes">
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/porcao-batata.jpg" alt="Batata Frita"></div>
+        <div class="menu-info">
+          <div class="menu-name">Batata Frita</div>
+          <div class="menu-desc">Batata palito crocante frita na hora. Disponível em tamanho médio ou grande.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 18</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/porcao-batata-cheddar.jpg" alt="Batata com Cheddar e Bacon"></div>
+        <div class="menu-info">
+          <div class="menu-name">Batata Cheddar Bacon</div>
+          <div class="menu-desc">Batata frita coberta com cheddar cremoso derretido e bacon crocante picado.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 28</div>
+            <div class="menu-badge">Mais pedida</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/porcao-onion.jpg" alt="Onion Rings"></div>
+        <div class="menu-info">
+          <div class="menu-name">Onion Rings</div>
+          <div class="menu-desc">Anéis de cebola empanados no panko, crocantes por fora e macios por dentro.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 22</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/porcao-nuggets.jpg" alt="Nuggets Artesanais"></div>
+        <div class="menu-info">
+          <div class="menu-name">Nuggets Artesanais</div>
+          <div class="menu-desc">10 unidades de nuggets de frango feitos na casa, acompanha molho ranch.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 25</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── BEBIDAS ── -->
+    <div class="menu-panel" data-panel="bebidas">
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/bebida-milkshake.jpg" alt="Milk Shake"></div>
+        <div class="menu-info">
+          <div class="menu-name">Milk Shake</div>
+          <div class="menu-desc">400ml. Sabores: chocolate, morango, baunilha e Oreo. Feito com sorvete artesanal.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 22</div>
+            <div class="menu-badge">Favorito</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/bebida-refrigerante.jpg" alt="Refrigerante"></div>
+        <div class="menu-info">
+          <div class="menu-name">Refrigerante</div>
+          <div class="menu-desc">Lata 350ml. Coca-Cola, Coca Zero, Guaraná Antarctica, Sprite e Fanta Laranja.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 7</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/bebida-suco.jpg" alt="Suco Natural"></div>
+        <div class="menu-info">
+          <div class="menu-name">Suco Natural</div>
+          <div class="menu-desc">400ml. Laranja, maracujá, abacaxi com hortelã ou limonada suíça.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 12</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <div class="menu-img"><div class="img-placeholder"><svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="img-placeholder-text">Suas imagens<br>aqui</div></div><img src="cardapio/bebida-agua.jpg" alt="Água"></div>
+        <div class="menu-info">
+          <div class="menu-name">Água</div>
+          <div class="menu-desc">500ml com ou sem gás.</div>
+          <div class="menu-footer">
+            <div class="menu-price">R$ 5</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /menu-panels -->
+</section>
+
+<!-- DIFERENCIAIS -->
+<section style="background: var(--dark);">
+  <div class="section-eyebrow">Por que o Burguer do Zé?</div>
+  <div class="section-title">O que nos diferencia</div>
+  <div class="diff-grid">
+    <div class="diff-item">
+      <div class="diff-icon">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4C9.37 4 4 9.37 4 16s5.37 12 12 12 12-5.37 12-12S22.63 4 16 4zm0 4c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm4 14H12v-2h3v-6h-2v-2h4v8h3v2z" fill="currentColor"/></svg>
+      </div>
+      <div class="diff-title">Carne fresca todo dia</div>
+      <div class="diff-text">Não usamos carne congelada. O blend é moído diariamente com cortes selecionados.</div>
+    </div>
+    <div class="diff-item">
+      <div class="diff-icon">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 3l2.5 7.5H27l-6.9 5 2.6 7.9L16 18.8l-6.7 4.6 2.6-7.9L5 10.5h8.5L16 3z" fill="currentColor"/></svg>
+      </div>
+      <div class="diff-title">Pão artesanal próprio</div>
+      <div class="diff-text">Nosso pão de brioche é feito na casa. Macio, fresquinho e feito pra não desmanchar.</div>
+    </div>
+    <div class="diff-item">
+      <div class="diff-icon">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M22 9a6 6 0 1 1-12 0A6 6 0 0 1 22 9zM4 27c0-5.52 5.37-10 12-10s12 4.48 12 10H4z" fill="currentColor"/></svg>
+      </div>
+      <div class="diff-title">Atendimento humano</div>
+      <div class="diff-text">Você fala com a gente de verdade. Aqui tem nome, tem rosto, tem história.</div>
+    </div>
+    <div class="diff-item">
+      <div class="diff-icon">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 4v12l6 3.5-1 1.73L14 17V4h2z" fill="currentColor"/><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+      </div>
+      <div class="diff-title">Entrega rápida</div>
+      <div class="diff-text">Média de 35 minutos pra chegar na sua porta. Quente e no ponto certo.</div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="galeria" style="background: var(--surface);">
+  <div class="section-eyebrow">Fotos reais</div>
+  <div class="section-title">Nossos burgers</div>
+  <div class="gallery-grid">
+    <div class="gallery-item big">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-1.jpg" alt="Burger em destaque">
+    </div>
+    <div class="gallery-item">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-2.jpg" alt="Detalhe do blend">
+    </div>
+    <div class="gallery-item">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-3.jpg" alt="Queijo derretido">
+    </div>
+    <div class="gallery-item">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-4.jpg" alt="Jalapeño e molho">
+    </div>
+    <div class="gallery-item big">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-5.jpg" alt="Combo completo">
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="section-eyebrow">O que falam da gente</div>
+  <div class="section-title">Avaliações reais</div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"Melhor burger da cidade, sem discussão. O Smash Bacon é viciante. Peço toda semana e nunca decepciona."</p>
+      <div class="testimonial-author">— Fernanda Lima · Google</div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"Chegou quente, rápido e perfeito. A carne estava no ponto certo. É o tipo de hambúrguer que você fica pensando depois."</p>
+      <div class="testimonial-author">— Bruno Costa · iFood</div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"Finalmente um artesanal que entrega o que promete. Pão macio, carne suculenta e molho incrível. Virei cliente fiel."</p>
+      <div class="testimonial-author">— Ana Rodrigues · Google</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contato" class="contact">
+  <div class="section-eyebrow">Fale com a gente</div>
+  <div class="section-title">Fazer um pedido</div>
+  <div class="contact-info">
+
+    <div class="contact-item">
+      <span class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2C7.69 2 5 4.69 5 8c0 4.69 6 12 6 12s6-7.31 6-12c0-3.31-2.69-6-6-6zm0 8.5A2.5 2.5 0 1 1 11 6a2.5 2.5 0 0 1 0 4.5z" fill="currentColor"/></svg>
+      </span>
+      <div>
+        <div class="contact-label">Endereço</div>
+        <div class="contact-value">Av. Anchieta, 876 · Vila Nova<br>Campinas, SP</div>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M11 7v4l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <div>
+        <div class="contact-label">Funcionamento</div>
+        <div class="contact-value">Seg–Qui: 18h às 23h<br>Sex–Dom: 18h às 00h</div>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="5" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M2 9h18" stroke="currentColor" stroke-width="1.6"/><path d="M6 14h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <div>
+        <div class="contact-label">Delivery</div>
+        <div class="contact-value">Via WhatsApp, iFood e Rappi<br>Taxa a partir de R$ 5</div>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4.5 4h3l1.5 4-2 1.5a11 11 0 0 0 5.5 5.5L14 13l4 1.5V18c0 .83-.67 1.5-1.5 1.5C8.1 19.5 2.5 13.9 2.5 7A1.5 1.5 0 0 1 4 5.5V4z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <div>
+        <div class="contact-label">WhatsApp</div>
+        <div class="contact-value">(19) 9 9999-9999</div>
+      </div>
+    </div>
+
+    <a href="https://wa.me/5519999999999" class="btn-red" style="align-self: flex-start; margin-top: 8px;">
+      Pedir agora pelo WhatsApp
+    </a>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Burguer do Zé</div>
+  <div class="footer-copy">© 2024 · Campinas, SP</div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/5519999999999" class="whatsapp-float" title="Pedir pelo WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+    <path d="M14 2C7.37 2 2 7.37 2 14c0 2.13.56 4.13 1.54 5.86L2 26l6.29-1.51A11.94 11.94 0 0 0 14 26c6.63 0 12-5.37 12-12S20.63 2 14 2zm6.11 16.43c-.26.72-1.52 1.37-2.09 1.46-.54.08-1.22.12-1.97-.12a18.1 18.1 0 0 1-1.79-.66C11.44 18 9.5 15.5 9.35 15.31c-.15-.19-1.22-1.62-1.22-3.09s.77-2.19 1.05-2.49c.27-.3.59-.38.79-.38.2 0 .39 0 .56.01.18.01.43-.07.67.51.26.62.87 2.12.95 2.28.08.15.13.33.03.53-.1.2-.15.32-.3.5-.15.17-.31.38-.45.51-.15.14-.3.29-.13.58.17.29.77 1.27 1.65 2.06 1.13 1.01 2.09 1.32 2.38 1.47.29.15.46.12.63-.07.17-.2.72-.84.91-1.13.19-.29.38-.24.64-.14.26.1 1.64.77 1.92.91.28.14.47.21.54.33.07.12.07.69-.19 1.41z" fill="white"/>
+  </svg>
+</a>
+
+<script>
+  // ── Cardápio: tab switching ───────────────────────────────────────
+  const tabs   = document.querySelectorAll('.menu-tab');
+  const panels = document.querySelectorAll('.menu-panel');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab;
+
+      // update tabs
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      // update panels
+      panels.forEach(p => {
+        p.classList.toggle('active', p.dataset.panel === target);
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
