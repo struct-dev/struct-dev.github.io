@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cantina Bella Napoli | Pizzas Artesanais e Massas em Recife</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="restaurante-style.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Bella <span>Napoli</span></div>
+  <ul>
+    <li><a href="#cardapio">Cardápio</a></li>
+    <li><a href="#galeria">Galeria</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="https://wa.me/5581999999999" class="nav-reserve">Reservar mesa</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-texture"></div>
+  <div class="hero-ornament-left">B</div>
+  <div class="hero-content">
+    <div class="hero-tag">Pizza artesanal · Forno a lenha</div>
+    <h1>A mesa que<br>une <em>família.</em></h1>
+    <div class="hero-sub-row">
+      <p>Pizzas no forno a lenha, massas frescas feitas na casa e um atendimento que faz você se sentir em casa desde a primeira visita. Desde 2008 em Recife.</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/5581999999999" class="btn-terracotta">Reservar uma mesa</a>
+        <a href="#cardapio" class="btn-outline-cream">Ver cardápio</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- STRIP -->
+<div class="strip">
+  <div class="strip-item">Forno a lenha</div>
+  <div class="strip-item">Massas frescas</div>
+  <div class="strip-item">Chef italiano formado</div>
+  <div class="strip-item">Carta de vinhos</div>
+  <div class="strip-item">16 anos de tradição</div>
+</div>
+
+<!-- CARDÁPIO -->
+<section id="cardapio" class="cardapio">
+  <div class="section-eyebrow">Nossa cozinha</div>
+  <div class="section-title">Um cardápio<br>feito com <em>carinho</em></div>
+
+  <div class="cardapio-tabs" role="tablist">
+    <button class="cardapio-tab active" role="tab" data-tab="pizzas">Pizzas</button>
+    <button class="cardapio-tab" role="tab" data-tab="massas">Massas</button>
+    <button class="cardapio-tab" role="tab" data-tab="entradas">Entradas</button>
+    <button class="cardapio-tab" role="tab" data-tab="sobremesas">Sobremesas</button>
+    <button class="cardapio-tab" role="tab" data-tab="bebidas">Bebidas</button>
+  </div>
+
+  <div class="cardapio-panels">
+
+    <!-- PIZZAS -->
+    <div class="cardapio-panel active" data-panel="pizzas">
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/pizza-margherita.jpg" alt="Margherita Classica">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Margherita Classica</div>
+          <div class="prato-desc">Molho de tomate artesanal, mussarela de búfala, manjericão fresco e azeite extravirgem.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 58</div><div class="prato-badge">Clássica</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/pizza-quatro-carnes.jpg" alt="Quatro Carnes">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Quatro Carnes</div>
+          <div class="prato-desc">Pepperoni, calabresa artesanal, frango temperado e bacon crocante. Generosa e saborosa.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 68</div><div class="prato-badge">Favorita</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/pizza-napolitana.jpg" alt="Napolitana">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Napolitana</div>
+          <div class="prato-desc">Molho de tomate, mussarela, anchovas, cebola e azeitonas pretas. Sabor intenso e marcante.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 62</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/pizza-funghi.jpg" alt="Funghi Trifolati">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Funghi Trifolati</div>
+          <div class="prato-desc">Creme de funghi porcini, mussarela, cogumelos frescos salteados e azeite trufado.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 72</div><div class="prato-badge">Premium</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/pizza-calabresa.jpg" alt="Calabresa Artesanal">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Calabresa Artesanal</div>
+          <div class="prato-desc">Molho da casa, mussarela, calabresa defumada artesanal, cebola e orégano fresco.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 60</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/pizza-frango-catupiry.jpg" alt="Frango com Catupiry">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Frango com Catupiry</div>
+          <div class="prato-desc">Molho da casa, frango desfiado temperado, catupiry cremoso e milho verde.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 62</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MASSAS -->
+    <div class="cardapio-panel" data-panel="massas">
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/massa-fettuccine-ragu.jpg" alt="Fettuccine al Ragù">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Fettuccine al Ragù</div>
+          <div class="prato-desc">Massa fresca feita na casa com ragù de carne bovina, tomate pelati e parmesão ralado na hora.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 62</div><div class="prato-badge">Clássico</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/massa-risotto-funghi.jpg" alt="Risotto de Funghi">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Risotto de Funghi</div>
+          <div class="prato-desc">Arroz arbóreo, mix de cogumelos funghi porcini, creme de queijo e toque de vinho branco.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 74</div><div class="prato-badge">Premium</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/massa-carbonara.jpg" alt="Spaghetti Carbonara">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Spaghetti Carbonara</div>
+          <div class="prato-desc">Spaghetti fresco, pancetta italiana, gema de ovo, pecorino romano e pimenta-do-reino.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 66</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/massa-lasanha.jpg" alt="Lasanha della Nonna">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Lasanha della Nonna</div>
+          <div class="prato-desc">Camadas de massa fresca, ragù de carne, molho bechamel e mussarela. Receita da família.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 68</div><div class="prato-badge">Favorita</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ENTRADAS -->
+    <div class="cardapio-panel" data-panel="entradas">
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/entrada-bruschetta.jpg" alt="Bruschetta al Pomodoro">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Bruschetta al Pomodoro</div>
+          <div class="prato-desc">Pão artesanal grelhado, tomate fresco picado, alho, manjericão e azeite extravirgem.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 28</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/entrada-burrata.jpg" alt="Burrata com Tomate Seco">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Burrata com Tomate Seco</div>
+          <div class="prato-desc">Burrata fresca importada sobre cama de rúcula, tomate seco, azeite e redução balsâmica.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 48</div><div class="prato-badge">Premium</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/entrada-arancini.jpg" alt="Arancini di Riso">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Arancini di Riso</div>
+          <div class="prato-desc">Bolinhos de arroz recheados com ragù e mussarela, empanados e fritos. Acompanha molho pomodoro.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 34</div><div class="prato-badge">Favorito</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/entrada-antipasto.jpg" alt="Tábua de Antipasto">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Tábua de Antipasto</div>
+          <div class="prato-desc">Seleção de frios italianos, queijos, azeitonas, pepperoncini e pão artesanal. Para 2 pessoas.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 72</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SOBREMESAS -->
+    <div class="cardapio-panel" data-panel="sobremesas">
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/sobremesa-tiramisu.jpg" alt="Tiramisù della Casa">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Tiramisù della Casa</div>
+          <div class="prato-desc">Receita tradicional com mascarpone, espresso, amaretto e cacau em pó. Feito diariamente.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 32</div><div class="prato-badge">Clássico</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/sobremesa-panna-cotta.jpg" alt="Panna Cotta">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Panna Cotta</div>
+          <div class="prato-desc">Creme suave de baunilha com calda de frutas vermelhas ou caramelo salgado.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 28</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/sobremesa-gelato.jpg" alt="Gelato Artesanal">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Gelato Artesanal</div>
+          <div class="prato-desc">Duas bolas à escolha. Sabores: pistache, stracciatella, limone e frutti di bosco.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 22</div><div class="prato-badge">Favorito</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEBIDAS -->
+    <div class="cardapio-panel" data-panel="bebidas">
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/bebida-vinho-tinto.jpg" alt="Vinho Tinto">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Vinho Tinto</div>
+          <div class="prato-desc">Taça 150ml. Seleção mensal de rótulos argentinos, chilenos e italianos. Pergunte ao sommelier.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 28</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/bebida-espresso.jpg" alt="Espresso Italiano">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Espresso Italiano</div>
+          <div class="prato-desc">Blend especial de grãos arábica com torra italiana. Curto, intenso e encorpado.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 10</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/bebida-agua.jpg" alt="Água Mineral">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Água Mineral</div>
+          <div class="prato-desc">500ml com ou sem gás. Opções nacionais e importadas disponíveis.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 8</div></div>
+        </div>
+      </div>
+      <div class="prato-card">
+        <div class="prato-img">
+          <div class="prato-placeholder"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="4" width="20" height="14" rx="2" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="10" r="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 16l5-4 4 4 3-3 4 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="prato-placeholder-text">Foto<br>aqui</div></div>
+          <img src="cardapio/bebida-suco.jpg" alt="Suco Natural">
+        </div>
+        <div class="prato-info">
+          <div class="prato-name">Suco Natural</div>
+          <div class="prato-desc">400ml. Laranja, maracujá, abacaxi com hortelã ou limonada siciliana.</div>
+          <div class="prato-footer"><div class="prato-price">R$ 14</div></div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /cardapio-panels -->
+</section>
+
+<!-- DIFERENCIAIS -->
+<section class="diff">
+  <div class="section-eyebrow">Por que a Bella Napoli?</div>
+  <div class="section-title">O que nos faz <em>especiais</em></div>
+  <div class="diff-grid">
+    <div class="diff-item">
+      <span class="diff-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M22 6C13.16 6 6 13.16 6 22s7.16 16 16 16 16-7.16 16-16S30.84 6 22 6zm0 6a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 22.4c-4 0-7.56-2.04-9.6-5.12.04-3.2 6.4-4.96 9.6-4.96s9.56 1.76 9.6 4.96c-2.04 3.08-5.6 5.12-9.6 5.12z" fill="currentColor"/></svg>
+      </span>
+      <div class="diff-title">Forno a lenha próprio</div>
+      <div class="diff-text">A pizza assa a 450°C. Borda levemente crocante por fora e macia por dentro. Do jeito italiano de verdade.</div>
+    </div>
+    <div class="diff-item">
+      <span class="diff-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M8 34l4-12h20l4 12H8zM14 22l4-12h8l4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="22" cy="10" r="2" fill="currentColor"/></svg>
+      </span>
+      <div class="diff-title">Massas frescas toda semana</div>
+      <div class="diff-text">Fazemos nossas próprias massas. Frescas, sem conservantes, com receita desenvolvida pelo nosso chef.</div>
+    </div>
+    <div class="diff-item">
+      <span class="diff-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M22 8a6 6 0 1 1 0 12A6 6 0 0 1 22 8zM8 38c0-7.73 6.27-14 14-14s14 6.27 14 14H8z" fill="currentColor" opacity=".85"/></svg>
+      </span>
+      <div class="diff-title">Ambiente familiar</div>
+      <div class="diff-text">Espaço aconchegante para jantares a dois, aniversários e reuniões de família. Tem espaço kids!</div>
+    </div>
+    <div class="diff-item">
+      <span class="diff-icon">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M14 8h16v20a8 8 0 0 1-16 0V8z" stroke="currentColor" stroke-width="2" fill="none"/><path d="M18 36v2M26 36v2M14 14H8v8a6 6 0 0 0 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </span>
+      <div class="diff-title">Carta de vinhos curada</div>
+      <div class="diff-text">Rótulos selecionados para harmonizar com cada prato. Do econômico ao especial.</div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="galeria" class="gallery">
+  <div class="section-eyebrow">Nossa cantina</div>
+  <div class="section-title">Momentos que<br>ficam na <em>memória</em></div>
+  <div class="gallery-grid">
+    <div class="gallery-item wide">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-1.jpg" alt="Forno a lenha">
+      <span class="gallery-label">Forno a lenha</span>
+    </div>
+    <div class="gallery-item">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-2.jpg" alt="Massas frescas">
+      <span class="gallery-label">Massas frescas</span>
+    </div>
+    <div class="gallery-item">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-3.jpg" alt="Nossa cozinha">
+      <span class="gallery-label">Nossa cozinha</span>
+    </div>
+    <div class="gallery-item">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-4.jpg" alt="Carta de vinhos">
+      <span class="gallery-label">Carta de vinhos</span>
+    </div>
+    <div class="gallery-item wide">
+      <div class="img-placeholder">
+        <svg class="img-placeholder-icon" viewBox="0 0 36 36" fill="none"><rect x="2" y="5" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M2 26l8-7 6 6 4-4 6 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="img-placeholder-text">Suas imagens<br>aqui</div>
+      </div>
+      <img src="fotos/galeria-5.jpg" alt="Ambiente interno">
+      <span class="gallery-label">Ambiente interno</span>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="section-eyebrow">O que dizem</div>
+  <div class="section-title">Quem volta sempre<br>nos <em>conta</em></div>
+  <div class="testimonials-grid">
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"A melhor pizza de Recife, ponto. A Margherita com búfala é uma obra de arte. Voltamos toda semana com a família."</p>
+      <div class="testimonial-author">— Família Nascimento · Clientes há 6 anos</div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"Fiz o aniversário do meu marido lá e foi perfeito. O espaço é lindo, a comida é deliciosa e o atendimento é de chorar de tão bom."</p>
+      <div class="testimonial-author">— Cristina Melo · Google</div>
+    </div>
+    <div class="testimonial-card">
+      <div class="stars">★★★★★</div>
+      <p class="testimonial-text">"O Fettuccine ao Ragù é o melhor que já comi no Brasil. Trago todos os visitantes que recebo em casa pra conhecer."</p>
+      <div class="testimonial-author">— Roberto Cavalcanti · TripAdvisor</div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contato" class="contact">
+  <div class="section-eyebrow">Venha nos visitar</div>
+  <div class="section-title">Reservar uma <em>mesa</em></div>
+  <div class="contact-info">
+    <div class="contact-item">
+      <span class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2C7.69 2 5 4.69 5 8c0 4.69 6 12 6 12s6-7.31 6-12c0-3.31-2.69-6-6-6zm0 8.5A2.5 2.5 0 1 1 11 6a2.5 2.5 0 0 1 0 4.5z" fill="currentColor"/></svg>
+      </span>
+      <div>
+        <div class="contact-item-label">Endereço</div>
+        <div class="contact-item-value">Rua do Futuro, 350 · Graças<br>Recife, PE</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <span class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M11 7v4l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <div>
+        <div class="contact-item-label">Funcionamento</div>
+        <div class="contact-item-value">Ter–Sex: 18h às 23h30<br>Sáb–Dom: 12h às 15h | 18h às 00h<br>Segunda: fechado</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <span class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4.5 4h3l1.5 4-2 1.5a11 11 0 0 0 5.5 5.5L14 13l4 1.5V18c0 .83-.67 1.5-1.5 1.5C8.1 19.5 2.5 13.9 2.5 7A1.5 1.5 0 0 1 4 5.5V4z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <div>
+        <div class="contact-item-label">WhatsApp / Reservas</div>
+        <div class="contact-item-value">(81) 9 9999-9999</div>
+      </div>
+    </div>
+    <div class="contact-item">
+      <span class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.6"/><rect x="12" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="12" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M12 15.5h7M15.5 12v7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </span>
+      <div>
+        <div class="contact-item-label">Estacionamento</div>
+        <div class="contact-item-value">Valet disponível<br>a partir das 18h</div>
+      </div>
+    </div>
+    <a href="https://wa.me/5581999999999" class="btn-terracotta" style="align-self:flex-start; margin-top:8px;">
+      Reservar pelo WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Cantina Bella Napoli</div>
+  <div class="footer-copy">© 2024 · Desde 2008 em Recife, PE</div>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/5581999999999" class="whatsapp-float" title="Reservar pelo WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+    <path d="M14 2C7.37 2 2 7.37 2 14c0 2.13.56 4.13 1.54 5.86L2 26l6.29-1.51A11.94 11.94 0 0 0 14 26c6.63 0 12-5.37 12-12S20.63 2 14 2zm6.11 16.43c-.26.72-1.52 1.37-2.09 1.46-.54.08-1.22.12-1.97-.12a18.1 18.1 0 0 1-1.79-.66C11.44 18 9.5 15.5 9.35 15.31c-.15-.19-1.22-1.62-1.22-3.09s.77-2.19 1.05-2.49c.27-.3.59-.38.79-.38.2 0 .39 0 .56.01.18.01.43-.07.67.51.26.62.87 2.12.95 2.28.08.15.13.33.03.53-.1.2-.15.32-.3.5-.15.17-.31.38-.45.51-.15.14-.3.29-.13.58.17.29.77 1.27 1.65 2.06 1.13 1.01 2.09 1.32 2.38 1.47.29.15.46.12.63-.07.17-.2.72-.84.91-1.13.19-.29.38-.24.64-.14.26.1 1.64.77 1.92.91.28.14.47.21.54.33.07.12.07.69-.19 1.41z" fill="white"/>
+  </svg>
+</a>
+
+<script>
+  // Cardápio: tab switching
+  const tabs   = document.querySelectorAll('.cardapio-tab');
+  const panels = document.querySelectorAll('.cardapio-panel');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab;
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      panels.forEach(p => {
+        p.classList.toggle('active', p.dataset.panel === target);
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
