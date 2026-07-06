@@ -165,7 +165,8 @@
     background: var(--yellow);
     padding: 16px 48px;
     display: flex; gap: 48px; align-items: center;
-    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .strip-item {
@@ -272,7 +273,7 @@
     z-index: 2;
   }
 
-  /* placeholder overlay — sits behind the image, visible when image is missing */
+  /* placeholder — visible while image is missing, hidden once image loads */
   .img-placeholder {
     position: absolute; inset: 0; z-index: 1;
     display: flex; flex-direction: column;
